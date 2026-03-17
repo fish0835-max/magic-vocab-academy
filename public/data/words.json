@@ -1,0 +1,66 @@
+[
+  {
+    "id": "w001",
+    "word": "apple",
+    "translation": "蘋果",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/120px-Red_Apple.jpg",
+    "date": "2026-03-16",
+    "sentence": "I eat an ___ every day."
+  },
+  {
+    "id": "w002",
+    "word": "banana",
+    "translation": "香蕉",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Chocolate-Chip-Cookies-%28DSCF8122%29.jpg/120px-Banana-Chocolate-Chip-Cookies-%28DSCF8122%29.jpg",
+    "date": "2026-03-16",
+    "sentence": "The ___ is yellow."
+  },
+  {
+    "id": "w003",
+    "word": "cat",
+    "translation": "貓",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/120px-Cat_November_2010-1a.jpg",
+    "date": "2026-03-16",
+    "sentence": "The ___ is sleeping."
+  },
+  {
+    "id": "w004",
+    "word": "dog",
+    "translation": "狗",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/120px-YellowLabradorLooking_new.jpg",
+    "date": "2026-03-16",
+    "sentence": "My ___ likes to run."
+  },
+  {
+    "id": "w005",
+    "word": "book",
+    "translation": "書",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camponotus_flavomarginatus_ant.jpg/120px-Camponotus_flavomarginatus_ant.jpg",
+    "date": "2026-03-17",
+    "sentence": "I read a ___ every night."
+  },
+  {
+    "id": "w006",
+    "word": "bird",
+    "translation": "鳥",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/120px-A_small_cup_of_coffee.JPG",
+    "date": "2026-03-17",
+    "sentence": "The ___ can fly high."
+  },
+  {
+    "id": "w007",
+    "word": "sun",
+    "translation": "太陽",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/120px-Cat_November_2010-1a.jpg",
+    "date": "2026-03-17",
+    "sentence": "The ___ rises in the east."
+  },
+  {
+    "id": "w008",
+    "word": "moon",
+    "translation": "月亮",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/120px-FullMoon2010.jpg",
+    "date": "2026-03-17",
+    "sentence": "The ___ shines at night."
+  }
+]

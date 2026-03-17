@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Python
+server/__pycache__/
+server/*.pyc
+__pycache__/
+*.pyc
+*.pyo
+
+# Server runtime data (contains user data and plain-text PIN)
+server/data/
+server/uploads/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Claude Code session data
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
