@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-purple-950 text-white min-h-screen;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .magic-gradient {
+    background: linear-gradient(135deg, #1e0a3c 0%, #2d1065 50%, #1a0a2e 100%);
+  }
+  .spell-glow {
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.5), 0 0 40px rgba(168, 85, 247, 0.2);
+  }
+  .gold-glow {
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.5), 0 0 40px rgba(251, 191, 36, 0.2);
+  }
+}
