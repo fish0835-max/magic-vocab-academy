@@ -5,6 +5,7 @@ set "ROOT=%ROOT:~0,-1%"
 for /f "tokens=*" %%h in ('hostname') do set "HN=%%h"
 for /f %%a in ('echo prompt $E^| cmd') do set "ESC=%%a"
 set "RED=%ESC%[91m"
+set "GREEN=%ESC%[92m"
 set "RST=%ESC%[0m"
 
 :menu
@@ -21,10 +22,11 @@ if %errorlevel% neq 0 (
     echo  +------------------------------------------+
 )
 echo  ^|                                          ^|
-echo  ^|  1.  Start Server   (backend)            ^|
+echo  ^|  1.  Start All      (%GREEN%recommended%RST%)        ^|
 echo  ^|  2.  Start Client   (frontend)           ^|
-echo  ^|  3.  Start All      (recommended)        ^|
+echo  ^|  3.  Start Server   (backend)            ^|
 echo  ^|  4.  Help                                ^|
+echo  ^|                                          ^|
 echo  ^|  5.  Clear Data / Credentials            ^|
 echo  ^|  6.  Restore Firewall (remove rules)     ^|
 echo  ^|                                          ^|
@@ -34,9 +36,9 @@ echo  +------------------------------------------+
 echo(
 set /p "choice=         Select [0-6] : "
 
-if "%choice%"=="1" goto start_server
+if "%choice%"=="1" goto start_all
 if "%choice%"=="2" goto start_client
-if "%choice%"=="3" goto start_all
+if "%choice%"=="3" goto start_server
 if "%choice%"=="4" goto show_help
 if "%choice%"=="5" goto clear_data
 if "%choice%"=="6" goto restore_firewall

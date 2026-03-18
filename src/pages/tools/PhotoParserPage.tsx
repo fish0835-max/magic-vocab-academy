@@ -421,7 +421,11 @@ export function PhotoParserPage() {
               <label className="text-purple-300 text-sm">關卡日期：</label>
               <input
                 type="date" value={date}
-                onChange={e => setDate(e.target.value)}
+                onChange={e => {
+                  const d = e.target.value
+                  setDate(d)
+                  setWords(prev => prev.map(w => ({ ...w, date: d })))
+                }}
                 className="bg-purple-900/50 border border-purple-500 rounded-lg px-3 py-1 text-white text-sm"
               />
             </div>
