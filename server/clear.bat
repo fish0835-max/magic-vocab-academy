@@ -2,6 +2,9 @@
 setlocal
 set "ROOT=%~dp0"
 set "ROOT=%ROOT:~0,-1%"
+for /f %%a in ('echo prompt $E^| cmd') do set "ESC=%%a"
+set "RED=%ESC%[91m"
+set "RST=%ESC%[0m"
 
 echo(
 echo  +------------------------------------------+
@@ -18,7 +21,7 @@ echo(
 set /p "confirm=  Type YES to confirm: "
 if /I NOT "%confirm%"=="YES" (
     echo(
-    echo  Cancelled.
+    echo  %RED%Cancelled.%RST%
     echo(
     goto end
 )
