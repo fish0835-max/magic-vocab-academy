@@ -258,10 +258,11 @@ pip install -r requirements.txt
 +------------------------------------------+
 |        EnglishCard  Launcher             |
 +------------------------------------------+
-|  1.  Start Server   (backend)            |
+|  1.  Start All      (recommended)        |
 |  2.  Start Client   (frontend)           |
-|  3.  Start All      (recommended)        |
+|  3.  Start Server   (backend)            |
 |  4.  Help                                |
+|                                          |
 |  5.  Clear Data / Credentials            |
 |  6.  Restore Firewall (remove rules)     |
 |                                          |
@@ -271,9 +272,9 @@ pip install -r requirements.txt
 
 | 選項 | 說明 | 需要管理員 |
 |------|------|:---:|
-| 1. Start Server | 啟動 FastAPI 後端，自動開啟防火牆，結束時自動關閉 | ✅ |
+| 1. Start All | 同時啟動前端與後端（推薦） | ✅ |
 | 2. Start Client | 開新視窗啟動 Vite 前端 | ❌ |
-| 3. Start All | 同時啟動前端與後端（推薦） | ✅ |
+| 3. Start Server | 啟動 FastAPI 後端，自動開啟防火牆，結束時自動關閉 | ✅ |
 | 4. Help | 顯示說明與手機連線網址 | ❌ |
 | 5. Clear Data | 清除伺服器題庫、PIN、上傳圖片，並顯示瀏覽器清除指令 | ❌ |
 | 6. Restore Firewall | 手動移除防火牆規則（伺服器異常關閉時使用） | ✅ |
